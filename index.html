@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow" data-podglad>
-<title>Kartony na sok Bag-in-Box i kartony klapowe od producenta | PPHU Format</title>
-<meta name="description" content="Sklep producenta opakowań z tektury falistej: kartony na sok Bag-in-Box 3 i 5 L oraz kartony klapowe wysyłkowe Fefco 201. Wysyłka kurierem w paczkach po 100 szt. albo paletą, płatność online.">
+<title>Kartony na sok Bag-in-Box 3 i 5 L od producenta | PPHU Format</title>
+<meta name="description" content="Kartony na sok Bag-in-Box 3 i 5 L do soków tłoczonych, prosto od producenta. Tektura 5-warstwowa, otwór na kranik, nadruk fleksodrukiem. Paczka 100 szt. albo paleta. Także kartony klapowe wysyłkowe.">
 <meta name="theme-color" content="#1C2024">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/saira-rdzen.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="img/hero-tel-1080.webp" imagesrcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1440.webp 1440w" imagesizes="100vw" media="(max-width:1080px)" fetchpriority="high">
-<link rel="preload" as="image" href="img/hero-2560.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3300.webp 3300w" imagesizes="(min-aspect-ratio:22/10) 100vw, 220vh" media="(min-width:1081px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/sok-tel-1440.webp" imagesrcset="img/sok-tel-960.webp 960w, img/sok-tel-1440.webp 1440w, img/sok-tel-1920.webp 1920w, img/sok-tel-2560.webp 2560w" imagesizes="170vw" media="(max-width:1080px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/sok-hero-2560.webp" imagesrcset="img/sok-hero-1280.webp 1280w, img/sok-hero-1920.webp 1920w, img/sok-hero-2560.webp 2560w, img/sok-hero-3300.webp 3300w" imagesizes="(min-aspect-ratio:22/10) 100vw, 220vh" media="(min-width:1081px)" fetchpriority="high">
 <style>
 @font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
 @font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
@@ -76,16 +76,18 @@ p{margin:0 0 1em}
 .top.otwarte .burger span::after{transform:translateY(-6px) rotate(-45deg)}
 
 /* pierwszy ekran */
-.hero{position:relative;overflow:hidden;background:#E4E4E6}
+.hero{position:relative;overflow:hidden;background:#C3C7D0}
 .hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:100% 50%}
-.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(241,242,244,.96) 0%,rgba(241,242,244,.9) 34%,rgba(241,242,244,0) 56%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(244,245,247,.95) 0%,rgba(244,245,247,.88) 36%,rgba(244,245,247,0) 54%)}
 .hero .wrap{position:relative;z-index:2;height:clamp(560px,44vw,1000px);max-height:calc(100svh - 66px);min-height:560px;display:flex;flex-direction:column;justify-content:center}
 .hero-t{max-width:600px}
 .hero h1{font-size:clamp(40px,3.3vw,60px);font-weight:750;color:var(--grafit);line-height:1.04}
 .hero .fala{width:150px;margin:26px 0 22px}
 .hero p{font-size:clamp(17px,1.25vw,20px);color:#2E333A;max-width:500px;margin:0}
 .hero-btn{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
-.hero-adres{margin-top:26px;font-size:14.5px;color:var(--szary);font-weight:600}
+.hero-adres{margin-top:26px;font-size:15px;color:var(--grafit);font-weight:650}
+.hero-adres span{color:var(--szary);font-weight:600}
+@media (min-width:1081px) and (max-width:1300px){.hero-t{max-width:46vw}}
 
 /* pasek zalet */
 .zalety{border-bottom:1px solid var(--linia)}
@@ -167,6 +169,7 @@ p{margin:0 0 1em}
 .zam li b{color:#fff}
 .zam figure{margin:0}
 .zam figure img{width:100%;max-width:520px;aspect-ratio:4/5;object-fit:cover;border-radius:3px;margin-left:auto}
+.zam figure img.nadruk{max-width:591px;aspect-ratio:auto;object-fit:fill}
 .zam figcaption{font-size:13.5px;color:#9DA3AB;margin-top:10px;text-align:right}
 
 /* zakupy */
@@ -222,22 +225,24 @@ p{margin:0 0 1em}
   .koszyk{margin-left:auto}
   .burger{display:inline-flex}
   /* pierwszy ekran: tekst na jasnym tle, zdjęcie pod spodem */
-  .hero{background:linear-gradient(90deg,#D6D3D6 0%,#D5D4D9 15%,#DADCE0 30%,#E4E5E9 45%,#FAFCFF 60%,#FEFEFE 75%);display:flex;flex-direction:column;min-height:calc(100svh - 65px)}
-  .hero picture::after{content:"";position:absolute;left:0;right:0;top:0;height:46px;background:linear-gradient(90deg,#D6D3D6 0%,#D5D4D9 15%,#DADCE0 30%,#E4E5E9 45%,#FAFCFF 60%,#FEFEFE 75%);-webkit-mask:linear-gradient(#000,transparent);mask:linear-gradient(#000,transparent)}
+  .hero{background:linear-gradient(180deg,#F4F5F7 0%,#DCDFE5 60%,#C3C7D0 100%);display:flex;flex-direction:column;min-height:calc(100svh - 65px)}
+  .hero picture::after{content:"";position:absolute;left:0;right:0;top:0;height:46px;background:#C3C7D0;-webkit-mask:linear-gradient(#000,transparent);mask:linear-gradient(#000,transparent)}
   .hero::before{display:none}
   .hero .wrap{height:auto;max-height:none;min-height:0;width:100%;padding-top:26px;padding-bottom:22px;justify-content:flex-start;flex:none}
   .hero picture{position:relative;flex:1;min-height:210px;display:block}
-  .hero picture img{object-position:50% 72%}
+  .hero picture img{object-position:50% 50%}
   .hero h1{font-size:clamp(30px,6.4vw,46px)}
   .hero .fala{width:110px;margin:18px 0 16px}
   .hero p{font-size:16.5px}
   .hero-btn{margin-top:24px}
-  .hero-adres{display:none}
+  .hero-adres{margin-top:16px;font-size:14px}
+  .hero-adres span{display:none}
   .zalety ul{grid-template-columns:1fr 1fr}
   .siatka-3,.siatka-sok{grid-template-columns:1fr 1fr}
   .karta{grid-template-columns:1fr;gap:34px}
   .zam{grid-template-columns:1fr;gap:36px}
   .zam figure img{margin:0;max-width:100%;aspect-ratio:16/10}
+  .zam figure img.nadruk{max-width:591px;aspect-ratio:auto}
   .zam figcaption{text-align:left}
   .zakupy{grid-template-columns:1fr;gap:26px}
   .firma{grid-template-columns:1fr;gap:40px}
@@ -314,28 +319,28 @@ p{margin:0 0 1em}
 <section class="hero">
   <div class="wrap">
     <div class="hero-t">
-      <h1>Kartony na sok <span style="white-space:nowrap">Bag-in-Box</span> i kartony wysyłkowe prosto od producenta</h1>
+      <h1>Kartony na sok <span style="white-space:nowrap">Bag-in-Box</span> <span style="white-space:nowrap">3 i 5 L</span> prosto od producenta</h1>
       <span class="fala" aria-hidden="true"></span>
-      <p>Robimy opakowania z tektury falistej w Kolonii Sinołęka. Zamówienie składa się online, w paczkach po 100 sztuk albo całą paletą, a koszt wysyłki liczy się sam.</p>
+      <p>Kartony do soków tłoczonych w workach z kranikiem. Tektura <span style="white-space:nowrap">5-warstwowa</span>, otwór na kranik i uchwyt, bez nadruku albo z Państwa nadrukiem. Paczka 100 sztuk lub cała paleta.</p>
       <div class="hero-btn">
-        <a class="btn btn-rdza" href="#sok">Kartony na sok 3 i 5 L</a>
-        <a class="btn btn-obrys" href="#klapowe">Kartony wysyłkowe</a>
+        <a class="btn btn-rdza" href="#sok">Zamów kartony na sok</a>
+        <a class="btn btn-obrys" href="#zamowienie">Karton z nadrukiem</a>
       </div>
-      <div class="hero-adres">PPHU Format, Kolonia Sinołęka 1 · tel. 600 757 125</div>
+      <div class="hero-adres">3 L: 2,00 zł / szt. · 5 L: 2,20 zł / szt.<span> · producent z Kolonii Sinołęka</span></div>
     </div>
   </div>
   <picture>
-    <source media="(max-width:1080px)" srcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1440.webp 1440w" sizes="100vw">
-    <img src="img/hero-2560.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3300.webp 3300w" sizes="(min-aspect-ratio:22/10) 100vw, 220vh" width="2560" height="1164" alt="Karton klapowy z tektury falistej z otwartymi klapami" fetchpriority="high">
+    <source media="(max-width:1080px)" srcset="img/sok-tel-960.webp 960w, img/sok-tel-1440.webp 1440w, img/sok-tel-1920.webp 1920w, img/sok-tel-2560.webp 2560w" sizes="170vw" width="1440" height="900">
+    <img src="img/sok-hero-2560.webp" srcset="img/sok-hero-1280.webp 1280w, img/sok-hero-1920.webp 1920w, img/sok-hero-2560.webp 2560w, img/sok-hero-3300.webp 3300w" sizes="(min-aspect-ratio:22/10) 100vw, 220vh" width="2560" height="1164" alt="Kartony na sok Bag-in-Box 5 L i 3 L z otworem na kranik i uchwytem" fetchpriority="high">
   </picture>
 </section>
 
 <div class="zalety">
   <ul>
-    <li><b>Własna produkcja</b>tektura 3 i 5-warstwowa, fale B, C, E, BC i BE</li>
-    <li><b>Paczka albo paleta</b>kurierem po 100 szt. lub całą paletą</li>
+    <li><b>Własna produkcja</b>tektura 5-warstwowa z falą EE</li>
+    <li><b>Paczka albo paleta</b>100 szt. w paczce, 1600 szt. na palecie</li>
     <li><b>Od 1000 sztuk</b>cenę ustalamy indywidualnie</li>
-    <li><b>Nadruk na kartonie</b>fleksodruk z Państwa logo</li>
+    <li><b>Nadruk na kartonie</b>fleksodruk z logo tłoczni lub owocami</li>
   </ul>
 </div>
 
@@ -345,13 +350,13 @@ p{margin:0 0 1em}
       <div>
         <span class="fala fala-krotka" aria-hidden="true"></span>
         <h2>Kartony na sok Bag-in-Box</h2>
-        <p>Do worków 3 i 5 litrów. Tektura 5-warstwowa z falą EE, naturalny kolor tektury, otwór na kranik i uchwyt do przenoszenia.</p>
+        <p>Do soków tłoczonych w workach 3 i 5 litrów. Tektura 5-warstwowa z falą EE, naturalny kolor tektury, otwór na kranik i uchwyt do przenoszenia. Dla tłoczni, sadów i gospodarstw, które sprzedają sok w kartonach.</p>
       </div>
       <a class="ile-poz" href="#karta">Zobacz kartę produktu</a>
     </div>
     <div class="siatka siatka-sok">
       <article class="prod">
-        <div class="prod-m foto-sok"><img src="img/sok-3l-5l.webp" width="433" height="577" loading="lazy" alt="Kartony na sok 3 L i 5 L Bag-in-Box z tektury falistej"></div>
+        <div class="prod-m foto-sok"><img src="img/sok-karta-600.webp" srcset="img/sok-karta-600.webp 600w, img/sok-karta-900.webp 900w" sizes="(max-width:1080px) 50vw, 450px" width="600" height="450" loading="lazy" alt="Kartony na sok 3 L i 5 L Bag-in-Box z tektury falistej"></div>
         <div class="prod-b">
           <h3><a href="#karta" data-war="3">Karton na sok 3 L, 160x95x225</a></h3>
           <p class="prod-s">5-warstwowy, fala EE · 100 szt. w paczce</p>
@@ -383,9 +388,9 @@ p{margin:0 0 1em}
     <nav class="okruchy" aria-label="Ścieżka"><a href="#top">Sklep</a> › <a href="#sok">Kartony na sok Bag-in-Box</a> › <span id="okr-naz">Karton na sok 3 L</span></nav>
     <div class="karta">
       <div class="galeria">
-        <div class="gal-g"><img id="gal-img" src="img/sok-3l-5l.webp" width="433" height="577" alt="Karton na sok 3 L i 5 L Bag-in-Box"></div>
+        <div class="gal-g"><img id="gal-img" src="img/sok-foto-900.webp" srcset="img/sok-foto-600.webp 600w, img/sok-foto-900.webp 900w, img/sok-foto-1200.webp 1200w" sizes="(max-width:640px) 300px, 433px" width="900" height="1200" loading="lazy" alt="Karton na sok 3 L i 5 L Bag-in-Box"></div>
         <div class="gal-m">
-          <button aria-pressed="true" data-src="img/sok-3l-5l.webp" data-w="433" data-h="577" data-alt="Karton na sok 3 L i 5 L Bag-in-Box"><img src="img/sok-3l-5l.webp" width="433" height="577" alt="" loading="lazy"></button>
+          <button aria-pressed="true" data-src="img/sok-foto-900.webp" data-srcset="img/sok-foto-600.webp 600w, img/sok-foto-900.webp 900w, img/sok-foto-1200.webp 1200w" data-w="900" data-h="1200" data-alt="Karton na sok 3 L i 5 L Bag-in-Box"><img src="img/sok-foto-600.webp" width="600" height="800" alt="" loading="lazy"></button>
           <button aria-pressed="false" data-src="img/sok-nadruk.webp" data-w="591" data-h="443" data-alt="Kartony na sok z nadrukiem i bez nadruku" data-poz="1"><img src="img/sok-nadruk.webp" width="591" height="443" alt="" loading="lazy"></button>
         </div>
       </div>
@@ -420,8 +425,8 @@ p{margin:0 0 1em}
     <div class="kat-g">
       <div>
         <span class="fala fala-krotka" aria-hidden="true"></span>
-        <h2>Kartony klapowe wysyłkowe</h2>
-        <p>Klasyczne kartony Fefco 201 do wysyłek ze sklepów internetowych, przeprowadzek i magazynu. Wymiary podane w milimetrach: długość x szerokość x wysokość.</p>
+        <h2>Także kartony klapowe wysyłkowe</h2>
+        <p>Do wysyłki soków i innych produktów. Klasyczne kartony Fefco 201 do wysyłek ze sklepów internetowych, przeprowadzek i magazynu. Wymiary podane w milimetrach: długość x szerokość x wysokość.</p>
       </div>
       <a class="ile-poz" href="#kontakt">Inny wymiar? Zapytaj</a>
     </div>
@@ -483,18 +488,18 @@ p{margin:0 0 1em}
   <div class="wrap zam">
     <div>
       <span class="fala fala-krotka" aria-hidden="true"></span>
-      <h2>Inny wymiar, nadruk albo cała paleta?</h2>
+      <h2>Karton na sok z Państwa nadrukiem</h2>
       <ul>
-        <li><b>Dowolny wymiar i konstrukcja.</b> Kartony klapowe, fasonowe z wykrojnika, tacki i przekładki na indywidualne zamówienie.</li>
-        <li><b>Nadruk fleksodrukiem.</b> Tektura szara, jednostronnie albo dwustronnie biała, z Państwa logo.</li>
+        <li><b>Nadruk fleksodrukiem.</b> Nazwa tłoczni, logo albo grafika owoców na kartonie 3 L lub 5 L.</li>
+        <li><b>Tektura do wyboru.</b> Szara, jednostronnie albo dwustronnie biała.</li>
         <li><b>Większe ilości.</b> Przy zamówieniach powyżej 1000 sztuk cenę ustalamy indywidualnie.</li>
-        <li><b>Dowóz własnym transportem</b> pod adres wskazany przez odbiorcę.</li>
+        <li><b>Dowóz własnym transportem</b> pod adres wskazany przez odbiorcę, także całe palety.</li>
       </ul>
-      <a class="btn btn-rdza" href="#kontakt">Zapytaj o wycenę</a>
+      <a class="btn btn-rdza" href="#kontakt">Zapytaj o wycenę nadruku</a>
     </div>
     <figure>
-      <img src="img/magazyn-800.webp" srcset="img/magazyn-800.webp 800w, img/magazyn-1200.webp 1200w" sizes="(max-width:1080px) 100vw, 520px" width="800" height="1067" loading="lazy" alt="Palety z kartonami w magazynie PPHU Format">
-      <figcaption>Gotowe kartony na paletach, przygotowane do wysyłki</figcaption>
+      <img class="nadruk" src="img/sok-nadruk.webp" width="591" height="443" loading="lazy" alt="Kartony na sok z nadrukiem jabłek obok kartonów bez nadruku">
+      <figcaption>Kartony na sok 3 i 5 L z nadrukiem i bez nadruku</figcaption>
     </figure>
   </div>
 </section>
@@ -582,7 +587,7 @@ p{margin:0 0 1em}
   document.getElementById('k-dodaj').addEventListener('click',function(){dodaj(this,'Dodano do koszyka')});
   var gi=document.getElementById('gal-img');
   document.querySelectorAll('.gal-m button').forEach(function(b){b.addEventListener('click',function(){
-    gi.src=b.dataset.src;gi.width=b.dataset.w;gi.height=b.dataset.h;gi.alt=b.dataset.alt;gi.classList.toggle('poz',!!b.dataset.poz);
+    gi.srcset=b.dataset.srcset||'';gi.src=b.dataset.src;gi.width=b.dataset.w;gi.height=b.dataset.h;gi.alt=b.dataset.alt;gi.classList.toggle('poz',!!b.dataset.poz);
     document.querySelectorAll('.gal-m button').forEach(function(x){x.setAttribute('aria-pressed',x===b)})})});
   licz();
 
