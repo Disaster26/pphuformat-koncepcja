@@ -107,7 +107,7 @@ p{margin:0 0 1em}
 .prod-m{position:relative;aspect-ratio:4/3;background:#F4F5F7;overflow:hidden}
 .prod-m img{width:100%;height:100%;object-fit:cover}
 .prod-m.foto-sok{background:#A7ABB2}
-.prod-m.foto-sok img{object-fit:contain;max-width:433px;margin:0 auto}
+.prod-m.foto-sok img{object-fit:cover}
 .prod-m svg{width:100%;height:100%}
 .prod-m .znak{position:absolute;left:12px;top:12px;background:var(--grafit);color:#fff;font:650 12.5px Manrope,sans-serif;padding:4px 9px;border-radius:2px}
 .prod-b{display:flex;flex-direction:column;flex:1;padding:18px 18px 20px}
@@ -129,8 +129,8 @@ p{margin:0 0 1em}
 .okruchy a{text-decoration:none;color:var(--szary)}
 .okruchy a:hover{color:var(--rdza)}
 .karta{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:56px;align-items:start}
-.gal-g{background:#A7ABB2;border-radius:4px;overflow:hidden;display:flex;align-items:center;justify-content:center;aspect-ratio:1/1}
-.gal-g img{max-width:433px;width:100%;height:auto}
+.gal-g{display:flex;align-items:flex-start;justify-content:flex-start}
+.gal-g img{max-width:433px;width:100%;height:auto;border-radius:4px}
 .gal-g img.poz{max-width:591px}
 .gal-m{display:flex;gap:10px;margin-top:12px}
 .gal-m button{width:84px;height:84px;padding:0;border:2px solid transparent;border-radius:3px;overflow:hidden;background:#A7ABB2;cursor:pointer}
@@ -277,7 +277,8 @@ p{margin:0 0 1em}
   .dodaj{width:100%;height:40px}
   .siatka-sok .prod:last-child{grid-column:1/-1}
   .siatka-sok .prod:last-child .prod-m{aspect-ratio:16/9}
-  .gal-g{aspect-ratio:auto;padding:0}
+  .gal-g{justify-content:center}
+  .gal-m{justify-content:center}
   .gal-g img{max-width:240px}
   .gal-g img.poz{max-width:300px}
   .gal-m button{width:70px;height:70px}
@@ -398,7 +399,7 @@ p{margin:0 0 1em}
         <div class="karta-cena"><span class="cena" id="k-cena">2,00 zł</span><span class="cena"><small>brutto / szt.</small></span></div>
         <div class="zamow">
           <div class="ilosc"><button type="button" id="mniej" aria-label="Mniej o 100 sztuk">–</button><output id="ilosc" aria-live="polite">100 szt.</output><button type="button" id="wiecej" aria-label="Więcej o 100 sztuk">+</button></div>
-          <button class="btn btn-rdza" id="k-dodaj">Do koszyka · <span id="k-razem">200,00 zł</span></button>
+          <button class="btn btn-rdza" id="k-dodaj"><span>Do koszyka · <span id="k-razem">200,00 zł</span></span></button>
         </div>
         <div class="wysylka" id="wysylka"><b>Wysyłka: 1 paczka kurierem, 20 zł.</b> Sklep sam dolicza 20 zł za każde kolejne 100 sztuk, a od 1600 sztuk proponuje wysyłkę paletą.</div>
         <dl class="parametry">
